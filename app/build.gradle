@@ -79,8 +79,8 @@ dependencies {
 
     ext.checkerFrameworkVersion = '3.1.1'
     annotationProcessor "org.checkerframework:crypto-checker:0.1-SNAPSHOT"
-    implementation files("/home/xwt/Documents/workspace/opprop/crypto-checker/crypto-checker-qual-android/build/libs/crypto-checker-qual-android.jar")
-    checkerFrameworkAnnotatedJDK files("/home/xwt/Documents/workspace/opprop/crypto-checker/jdk8.jar")
+    implementation files("/path/to/crypto-checker/crypto-checker-qual-android/build/libs/crypto-checker-qual-android.jar")
+    checkerFrameworkAnnotatedJDK files("/path/to/crypto-checker/jdk8.jar")
     compileOnly "org.checkerframework:checker-qual-android:${checkerFrameworkVersion}"
     errorproneJavac 'com.google.errorprone:javac:9+181-r4173-1'
 
